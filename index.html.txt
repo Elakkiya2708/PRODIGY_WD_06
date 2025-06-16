@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video id="bgVideo" autoplay muted loop playsinline></video>
+
+  <!-- Background Audio -->
+  <audio id="bgAudio" autoplay loop></audio>
+
+  <div class="app-container">
+    <h1 class="title">Weather Forecast</h1>
+
+    <div class="form-container">
+      <input type="text" id="cityInput" placeholder="Enter City" />
+      <button id="getWeatherBtn">Get Weather</button>
+    </div>
+
+    <div id="weatherResult" class="weather-card hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
